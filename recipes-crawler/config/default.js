@@ -36,9 +36,11 @@ module.exports = {
   },
   crawler: { // once every 2 hours
     frequency: 7200000,
-    baseUrl: 'http://food2fork.com/api',
-    searchSuffix: '/search',
-    recipeSuffix: '/get',
+    baseUrl: 'https://api.spoonacular.com/recipes',
+    searchSuffix: '/random',
+    numRecipes: 2,
+    mock: false,
+    recipeSuffix: '/:id/information',
     recipesApi: {
       host: 'http://127.0.0.1:3000',
       path: '/api/v1/recipes/:id',
