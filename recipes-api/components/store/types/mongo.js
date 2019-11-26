@@ -1,5 +1,10 @@
 module.exports = ({ recipes }) => {
 
+/*
+  const saveRecipe = (recipe) => {
+    throw new Error('forced error');
+  };
+*/
   const saveRecipe = (recipe) => recipes.insert(recipe);
 
   const updateRecipe = (update) => recipes.findOneAndUpdate({ id: update.id, version: { $lte: update.version } }, update, {});
