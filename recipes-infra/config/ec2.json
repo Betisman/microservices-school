@@ -4,8 +4,8 @@
   "MinCount": 1,
   "DryRun": false,
   "InstanceType": "t2.micro",
-  "KeyName": "micro-school-ec2",
-  "Placement": { "AvailabilityZone": "eu-west-1a"},
+  "KeyName": "Test Launcher",
+  "Placement": { "AvailabilityZone": "us-east-1"},
   "Monitoring": {
     "Enabled": true
   },
@@ -13,6 +13,9 @@
     "Name": "deployment"
   },
   "SecurityGroupIds": [
-    "ssh-and-http-from-anywhere"
+    "ssh-and-http-from-anywhere",
+    "sg-0e2d259b8cca8a3d0",
+    "launch-wizard-1",
+    "subnet-716d0b5f"
   ]
 }
