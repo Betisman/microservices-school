@@ -4,8 +4,8 @@
   "MinCount": 1,
   "DryRun": false,
   "InstanceType": "t2.micro",
-  "KeyName": "Test Launcher",
-  "Placement": { "AvailabilityZone": "us-east-1" },
+  "KeyName": "test3",
+  "Placement": { "AvailabilityZone": "us-east-1a" },
   "Monitoring": {
     "Enabled": true
   },
