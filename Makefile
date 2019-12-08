@@ -24,7 +24,7 @@ archive: start
 check:
 	@echo "Checking our $(SERVICE) container is up and running..."
 	@echo "http://localhost:$(SERVICE_PORT)/__/manifest"
-	@ping localhost
+	@ping -c 4 localhost
 	@curl http://localhost:$(SERVICE_PORT)/__/manifest
 
 ensure-dependencies:
