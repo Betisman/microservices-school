@@ -5,7 +5,7 @@
   "DryRun": false,
   "InstanceType": "t2.micro",
   "KeyName": "test3",
-  "Placement": { "AvailabilityZone": "us-east-1a" },
+  "Placement": { "AvailabilityZone": "us-west-2" },
   "Monitoring": {
     "Enabled": true
   },
@@ -15,7 +15,6 @@
   "SecurityGroupIds": [
     "ssh-and-http-from-anywhere",
     "sg-0e2d259b8cca8a3d0",
-    "launch-wizard-1",
-    "subnet-716d0b5f"
+    "launch-wizard-1"
   ]
 }
