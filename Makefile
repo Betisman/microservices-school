@@ -25,7 +25,7 @@ check:
 	@echo "Checking our $(SERVICE) container is up and running..."
 	@echo "http://localhost:$(SERVICE_PORT)/__/manifest"
 	@ping -c 4 localhost
-	@curl http://localhost:$(SERVICE_PORT)/__/manifest
+	# @curl http://localhost:$(SERVICE_PORT)/__/manifest
 
 ensure-dependencies:
 	@npm run docker
