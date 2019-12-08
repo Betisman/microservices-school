@@ -5,7 +5,7 @@
   "DryRun": false,
   "InstanceType": "t2.micro",
   "KeyName": "Test Launcher",
-  "Placement": { "AvailabilityZone": "us-east-1a"},
+  "Placement": { "AvailabilityZone": "us-west-1" },
   "Monitoring": {
     "Enabled": true
   },
