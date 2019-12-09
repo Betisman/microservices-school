@@ -8,7 +8,7 @@ module.exports = {
     recipeSuffix: '/api/get',
     autostart: true,
     key: 'some_key',
-    page: 10
+    numRecipes: 10
   },
   rabbitmq: {
     defaults: {

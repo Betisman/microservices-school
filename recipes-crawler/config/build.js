@@ -6,9 +6,9 @@ module.exports = {
     baseUrl: 'http://localhost:6000',
     searchSuffix: '/api/search',
     recipeSuffix: '/api/get',
-    autostart: true,
+    autostart: false,
     key: 'some_key',
-    page: 10
+    numRecipes: 10
   },
   rabbitmq: {
     defaults: {
