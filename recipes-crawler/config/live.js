@@ -15,10 +15,10 @@ module.exports = {
   rabbitmq: {
     defaults: {},
     vhosts: {
-      ysojkvfe: {
+      kcexhppf: {
         connection: {
           hostname: 'swan.rmq.cloudamqp.com',
-          user: 'ysojkvfe',
+          user: 'kcexhppf',
           password: process.env.RABBIT_PWD || 'N/A'
         }
       }
