@@ -3,6 +3,7 @@ module.exports = {
     transport: 'sumo'
   },
   crawler: {
+    autostart: true,
     recipesApi: {
       host: 'http://recipes-api:3000'
     },
