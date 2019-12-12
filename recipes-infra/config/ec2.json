@@ -4,18 +4,16 @@
   "MinCount": 1,
   "DryRun": false,
   "InstanceType": "t2.micro",
-  "KeyName": "test3",
+  "KeyName": "microservices1",
   "Placement": { "AvailabilityZone": "eu-west-1a" },
   "Monitoring": {
     "Enabled": true
   },
   "IamInstanceProfile": {
-    "Name": "deployment"
+    "Name": "a-role-was-born"
   },
   "SecurityGroupIds": [
-    "ssh-and-http-from-anywhere",
-    "sg-0e2d259b8cca8a3d0",
-    "launch-wizard-1",
-    "subnet-61fa0907"
+    "sg-bd64cec7",
+    "default"
   ]
 }
