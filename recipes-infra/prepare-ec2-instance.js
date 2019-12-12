@@ -5,7 +5,7 @@ const { runInstallation } = require('./lib/ssh');
 const { checkInstances, createInstance, extractPublicDns, findPublicDns } = require('./lib/ec2');
 const { removeFile, wait } = require('./lib/utils');
 
-const PEM_KEY_PATH = join(__dirname, 'micro-school-ec2.pem');
+const PEM_KEY_PATH = join(__dirname, 'microservices1.pem');
 
 const DELAY = 5000;
 

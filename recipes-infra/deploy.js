@@ -5,7 +5,8 @@ const { removeFile } = require('./lib/utils');
 
 if (!process.env.SERVICE) throw new Error("No SERVICE environment variable has been specified");
 
-const PEM_KEY_PATH = join(__dirname, 'micro-school-ec2.pem');
+const PEM_KEY_PATH = join(__dirname, 'microservices1.pem');
+console.log(PEM_KEY_PATH)
 const INSTANCE_REGISTRY_PATH = join(__dirname, 'instances-registry.json');
 
 const cleanUp = () => {

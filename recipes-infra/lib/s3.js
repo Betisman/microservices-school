@@ -2,7 +2,7 @@ const R = require('ramda');
 const fs = require('fs');
 const { s3 } = require('./aws');
 
-const S3_BUCKET = 'microservices-school-recipes';
+const S3_BUCKET = 'microservices-school-recipes-carlos';
 
 const registerInstance = (publicDns) => {
   const registry = {
@@ -28,7 +28,7 @@ const download = R.curry((s3Key, outputFile) => new Promise((resolve, reject) =>
   s3Stream.pipe(fileStream);
 }));
 
-const downloadPemFile = download('keys/micro-school-ec2.pem');
+const downloadPemFile = download('keys/microservices1.pem');
 const downloadInstanceRegistry = download('instances-registry');
 
 module.exports = {
